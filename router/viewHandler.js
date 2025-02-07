@@ -30,7 +30,6 @@ async function catalogView(ctx) {
 }
 
 
-
 function createView(ctx) {
     render(templates.getCreateView(), mainElement);
 }
