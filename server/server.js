@@ -16,7 +16,7 @@
             super(message);
             this.name = 'ServiceError';
         }
-    }
+    }  
 
     class NotFoundError extends ServiceError {
         constructor(message = 'Resource not found') {
